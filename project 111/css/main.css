@@ -1,0 +1,675 @@
+* {margin: 0px;}
+
+.hidden_menu p {
+  background-color: black !important;
+  display: none !important;
+
+}
+
+.custom-header {
+	            width:100%;
+	            height: 80px;
+	            background-color: black;
+	            border-bottom: 4px dashed red;
+                position: inherit;
+}
+
+/*styling logo*/
+
+.logo-txt {
+	   padding-top: 20px;
+	  
+}
+
+.logo1 {
+	    color: red;
+	    float: left;
+	    padding-top: 10px;
+	    padding-left: 50px;
+	    font-family: fantasy;
+	    font-size: 50px;
+
+}
+
+.logo2 {
+	    color: lavender;
+	    text-align: center;
+	    padding-top: 10px;
+	    font-family: fantasy;
+	    font-size: 45px;
+}
+
+.min {
+	  color: lightgreen;
+}
+
+/*styling bg-img*/
+
+.bg-img {
+	     background-image: url(../img/scc.jpg);
+	     background-position: center;
+	     background-size: cover;
+	     background-repeat: no-repeat;
+	     height: 400px;
+	     opacity: 0.7;
+}
+
+
+.bg-img:hover {
+               background: url(../img/b.jpg);
+
+}
+
+
+/*styling nav list*/
+
+.bg-img ul {
+	         text-align: center;
+	         padding-top: 15px;
+             
+}
+
+.bg-img li {
+            list-style-type: none;
+            display: inline-block;
+            padding-right: 50px;
+            font-family: fantasy;
+            font-size: 15px;
+            border: 1px solid lavender;
+            padding: 10px;
+            margin: 25px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 5px;
+            
+}
+
+.bg-img a {
+	       color: white;
+	       text-decoration: none;
+}
+
+.bg-img li:hover {
+	              background: red;
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+
+
+.bg-img a:hover {
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+/*parallax-img*/
+
+.parallax-img {
+	           background-image: url(../img/d.jpg);
+	           background-position: center;
+	           background-repeat: no-repeat;
+	           background-size: cover;
+	           background-attachment: fixed;
+	           height: 500px;
+}
+
+
+/*styling menu grid*/
+
+.menu {
+	   display: grid;
+	   grid-template-columns: 250px 250px;
+	   grid-template-rows: auto auto;
+	   grid-gap: 30px;
+      
+      
+}
+
+.menu-link {
+            border: 2px solid white;
+            margin-top: 100px;
+            margin-left: 430px;
+            text-align: center;
+            font-family:monospace;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 30px;
+            width: 150px;
+            height: 45px;
+}
+
+.menu-link:hover {
+                 background: rgba(0,0,0,0.7);
+                 transition: all .5s ease;
+                 font-size: 30px;
+                  border: 2px dashed blue;
+}
+
+
+.menu-link a {
+              text-decoration: none;
+              color: white;
+              
+}
+
+/*DROPDOWN MENU FOR TITHE*/
+.dropdown {
+  transition: none;
+  border: none;
+  background: unset;
+}
+
+.dropButton {
+  overflow: hidden;
+  /*background-color: #666;*/
+  font-family: Arial;
+  font-weight: bolder;
+  width: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: none !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content li {
+  display: block;
+  margin: 0 0;
+
+}
+
+
+/*--styling footer*/
+
+
+footer {
+       width: 100%;
+       height: 400px;
+       background: black;
+       
+}
+
+
+.foot {
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+       grid-template-rows: auto auto auto auto;
+       grid-gap: 5px;
+       
+}
+
+
+.address {
+          color: white;
+          font-family: tahoma;
+          font-size: 20px;
+          font-variant: small-caps;
+          margin-top: 25px;
+         margin-left: 30px;
+}
+
+
+
+.f-link {
+         margin-top: 25px;
+    
+}
+
+
+
+.f-link li {
+            list-style-type: none;
+            font-family: tahoma;
+            font-size: 25px;
+            font-variant: small-caps;
+}
+
+
+.f-link a {
+           text-decoration: none;
+           color: lavender;
+}
+
+
+
+.s-link {
+         margin-top: 25px;
+}
+
+
+.s-link li {
+            list-style-type: none;
+            font-family: tahoma;
+            font-size: 25px;
+            font-variant: small-caps;
+}
+
+
+.s-link a {
+           text-decoration: none;
+           color: lavender;
+}
+
+
+.foot form {
+            margin-top: 25px;
+}
+
+
+
+.sub-box {
+          width: 250px;
+          height: 25px;
+          padding-left: 15px;
+          border: none;
+}
+
+.sub-box1 {
+          width: 260px;
+          height: 75px; 
+          border: none;
+}
+
+
+.sub-btn {
+          width: 265px;
+         height: 30px; 
+         font-size: 20px;
+         font-family: cooper;
+         background: brown;
+         color: lavender;
+         border: none;
+}
+
+
+/*styling gallery*/
+
+
+.gallery-banner {
+	     background-image:url(../img/b.jpg);
+	     background-position: center;
+	     background-size: cover;
+	     background-repeat: no-repeat;
+}
+
+
+
+.gallery-banner ul {
+	         text-align: center;
+	         padding-top: 15px;
+
+}
+
+.gallery-banner li {
+            list-style-type: none;
+            display: inline-block;
+            padding-right: 50px;
+            font-family: fantasy;
+            font-size: 15px;
+            border: 1px solid lavender;
+            padding: 10px;
+            margin: 25px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 5px;
+}
+
+.gallery-banner a {
+	       color: white;
+	       text-decoration: none;
+}
+
+.gallery-banner li:hover {
+	              background: red;
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+
+
+.gallery-banner a:hover {
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+
+
+
+.gallery {
+          margin-bottom: 40px;
+    
+}
+
+
+
+
+.gallery-grid {
+	   display: grid;
+	   grid-template-columns: 280px 280px 280px 280px;
+	   grid-template-rows: auto auto;
+	   grid-gap: 5px;
+     
+      
+}
+
+
+
+.gallery-img {
+            margin-top: 70px;
+            margin-left: 100px;
+
+}
+
+
+.gallery-img:hover {
+                    transition: all .5s ease;
+                     transform: scale(1.2,1.2);
+                     
+}
+
+
+
+/*styling sermon page*/
+
+
+.sermon-vid ul {
+	         text-align: center;
+	         padding-top: 15px;
+
+}
+
+.sermon-vid li {
+            list-style-type: none;
+            display: inline-block;
+            padding-right: 50px;
+            font-family: fantasy;
+            font-size: 15px;
+            border: 1px solid lavender;
+            padding: 10px;
+            margin: 25px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 5px;
+}
+
+.sermon-vid a {
+	       color: white;
+	       text-decoration: none;
+}
+
+.sermon-vid li:hover {
+	              background: red;
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+
+
+.sermon-vid a:hover {
+	              transition: all 0.3s ease;
+	              font-size: 20px;
+}
+
+
+
+
+
+
+.sermon-grid {
+	   display: grid;
+	   grid-template-columns: 280px 280px 280px 280px;
+	   grid-template-rows: auto auto;
+	   grid-gap: 5px;
+     
+      
+}
+
+
+
+.sermon-vid {
+            margin-top: 70px;
+            margin-left: 100px;
+            
+}
+
+
+
+/*styling join us page*/
+
+
+.join-us ul {
+	         text-align: center;
+	         padding-top: 15px;
+
+}
+
+.join-us  li {
+            list-style-type: none;
+            display: inline-block;
+            padding-right: 50px;
+            font-family: fantasy;
+            font-size: 15px;
+            border: 1px solid lavender;
+            padding: 10px;
+            margin: 25px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 5px;
+}
+
+
+
+.join-grid {
+	   display: grid;
+	   grid-template-columns: 280px 280px 280px 280px;
+	   grid-template-rows: auto auto;
+	   grid-gap: 5px;
+     
+      
+}
+
+
+
+.join-us  {
+            margin-top: 70px;
+            margin-bottom: 30px;
+            margin-left: 100px;
+            border: 2px solid black;
+            background: black;
+            padding: 20px;
+            border-radius: 10px;
+}
+
+
+
+.join-us:hover {
+                transition: all .5s ease;
+               transform: scale(1.3,1.3);
+}
+
+
+
+/*styling form page*/
+
+
+.form-bg-img  {
+	           background-image:url(../img/a.jpg);
+	           background-position: center;
+	           background-size: cover;
+	           background-repeat: no-repeat;
+               background-attachment: fixed;
+               height: 500px;
+               padding: 30px;
+}
+              
+    
+
+
+
+ form {
+        margin-top: 50px;
+        margin-bottom: 30px;
+                
+}
+
+
+.register {
+           
+           
+           border: 2px solid black;
+           padding: 50px;
+          width: 380px;
+           margin-left: 430px;
+          background: rgba(0,0,0,0.5);
+          border: 1px solid white;
+}
+       
+
+.register .input {
+                  width: 350px;
+                  height: 25px;
+                  text-align: center;
+                  font-variant: small-caps;
+                  border-radius: 5px;
+                  border: none;
+}
+
+
+.register .btn {
+                width: 354px;
+                height: 35px;
+                border: none;
+                border-radius: 5px;
+                background: skyblue;
+                font-variant: small-caps;
+                font-size: 25px;
+                color: firebrick;
+    
+}
+
+
+
+.register .check {
+                  margin-left: 40px;
+}
+
+
+
+/*styling update page*/
+
+
+
+/*styling update-video-grid*/
+
+
+.update-vid-grid {
+	   display: grid;
+	   grid-template-columns: 330px;
+       grid-gap: 5px;
+      float: right;
+}
+
+
+.update-vid {
+             margin-top: 50px;
+}
+
+
+
+
+/*styling update-news-grid*/
+
+
+
+.update-news {
+              margin-bottom: 500px;
+}
+
+
+.update-news-grid {
+	   display: grid;
+	   grid-template-columns: 280px 280px 280px;
+       grid-template-rows: auto auto;
+       grid-gap: 5px;
+    
+}
+
+
+
+.update-new  {
+            margin-top: 50px;
+            margin-left: 40px;
+            border: 1px solid black;
+            padding: 20px;
+}
+
+
+
+/* NUBS History*/
+
+
+
+.NUBS-history {
+    background: url(../img/a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    padding: 30px;
+}
+
+
+.history {
+          border: 1px solid black;
+          padding: 30px;
+          width: 580px;
+          margin-left: 350px;
+          margin-top: 50px;
+          margin-bottom: 40px;
+          text-align: center;
+          color: white;
+          background: rgba(0,0,0,0.7);
+          border: 2px solid white;
+          border-radius: 5px;
+}
+
+
+
+/* styling calender */
+
+
+table{
+                margin-bottom:80px; border-collapse: collapse;margin-top: 40px;
+            }
+            
+            th {padding: 40px;border-bottom: 2px solid red;font-size: 30px;font-family:fantasy;}
+        
+            
+            tr {border-bottom: 2px solid red;font-size: 20px;font-family:sans-serif;text-align:center;}
+            
+            
+            
+          tr:nth-child(even){
+              border-bottom: px solid ash;
+              background: #e3e3e3;
+            
+            
+          
+            tr:nth-child(odd){
+              border-bottom: px solid black;
+            }
+              
+              
+              
+              .calender {
+                         margin-bottom: 35px;
+                  
+                  
+              }              
+
